@@ -1,0 +1,296 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Black Ops One', cursive;
+    margin: 0px;
+    
+}
+#nav{
+    background-color: rgb(9, 113, 169);
+    text-align: center;
+    
+    
+}
+#nav ul{
+    display: flex;
+    
+}
+
+
+#nav ul li {
+    display: flex;
+    
+    text-decoration: none;
+    margin: 2%;
+    margin-left: 21%;
+    
+    text-align: center;
+    position: relative;
+    left: 90%;
+    
+}
+#nav ul li a:hover{
+    color: red;
+}
+#banner{
+    background-image: url(https://techcrunch.com/wp-content/uploads/2023/04/elon-owns-twitter.jpg?w=1024);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner h4{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#about{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    
+}
+#about img{
+    position: relative;
+    left: 15%;
+    top: 40%;
+    
+
+
+}
+#about h5, p{
+    position: relative;
+    top: 45%;
+    color: azure;
+}
+#about h3{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    color: rgb(240, 248, 255);
+}
+
+#establishments{
+    background-color: black;
+    height: 1400px;
+    
+}
+#establishments h6{
+    color: azure;
+    text-align: center;
+
+}
+#establishments .col-4{
+    border: 2px solid blue;
+    position: relative;
+    top: 290px;
+}
+#establishments h3{
+    text-align: center;
+    color: rgb(240, 241, 255);
+    position: relative;
+    top: 120px;
+}
+.row{
+    width: 100%;
+}
+
+
+#awards{
+    background-color: black;
+    height: 750px;
+}
+#awards h3{
+    text-align: center;
+    color: azure;
+    position: relative;
+    top: 10%;
+}
+
+#awards .row{
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+
+#contact .row{
+    width: 100%;
+}
+
+#contact img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact{
+    background-color: rgb(9, 9, 9);
+}
+
+#contact .col-6{
+    position: relative;
+    bottom: 560px;
+    left: 5%;
+}
+#contact h3{
+    color: azure;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+#contact iframe{
+    height: 510px;
+    position: relative;
+    left: 40px;
+    border: 2px solid blue;
+    height: 560px;
+    
+}
+
+@media screen and (max-width:400px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+     font-family: 'Cookie', cursive;
+        ;
+    }
+
+    nav{
+        background-color:rgb(0, 145, 255) ;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    }
+
+    nav ul li {
+        width: 100%;
+        height: 50px;
+        
+    }
+
+    #banner{
+        width: 100%;
+        height: 160px;
+        
+
+    }
+
+    #banner h4{
+        position: relative;
+        top: -23px;
+        
+        
+        
+    }
+
+    #about{
+       width: 100%;
+       height: 950px;
+
+    }
+
+    #about img{
+
+        width: 80%;
+        height: 100px;
+        position: relative;
+        top: 50px;
+        left: 160px;
+
+    }
+    #about .col-8{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 50%;
+    }
+
+    #about h5,p{
+        text-align: center;
+    }
+    
+
+    #establishments{
+        width: 100%;
+        
+    
+    }
+    #establishments .col-4{
+        width: 100%;
+        position: relative;
+        top: 130px;
+        left: 12px;
+    }
+
+    #establishments img{
+        width: 100%;
+        height: 50px;
+    }
+
+    #awards{
+        width: 100%;
+        height: 2500px;
+    }
+    #awards .col-3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: -290px;
+        left: 40px;
+        margin-bottom: 10%;
+    }
+
+    #awards p{
+        position: relative;
+        top: 10px;
+    }
+    #awards a{
+        position: relative;
+        left: 23%;
+    }
+    #contact{
+        width: 100%;
+        position: absolute;
+        top: 850%;
+        
+    }
+
+    #contact img{
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        top: -402px;
+    }
+
+    #contact .col-6{
+        height: 160px;
+        position: relative;
+        top: -890px;
+    }
+
+   #contact iframe{
+        width: 100%;
+        height: 590px;
+        position: relative;
+        top: -66%;
+    }
+    
+    #contact .row{
+        width: 100%;
+        position: relative;
+        
+    }
+    #contact h3{
+        position: absolute;
+        bottom: 550px;
+        text-align: center;
+    }
+
+}
